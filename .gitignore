@@ -1,5 +1,6 @@
 data/kaggle/courses/store-sales-time-series-forecasting/*
 data/ods032.csv
+*.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
