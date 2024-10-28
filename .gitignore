@@ -1,6 +1,14 @@
-data/kaggle/courses/store-sales-time-series-forecasting/*
-data/ods032.csv
 *.pkl
+Projects/ods/*.png
+Projects/ods/*.h5
+Projects/ods/*.csv
+Projects/solar-power-generation-data-anikannal/*
+Courses/365 Data Science/*
+Courses/Certificates/*
+Datasets/*
+Statistics/*
+learntools-master/*
+Jobs/CESResume.pdf
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
