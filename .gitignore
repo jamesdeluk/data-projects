@@ -1,6 +1,7 @@
 *.pkl
 *.h5
-Projects/ods/*.png
+Projects/ods/**/*.png
+Projects/ods/**/*.gif
 Projects/ods/*.csv
 Projects/solar-power-generation-data-anikannal/*
 Courses/365 Data Science/*
