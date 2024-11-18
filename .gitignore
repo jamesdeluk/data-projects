@@ -163,14 +163,16 @@ cython_debug/
 
 *.pkl
 *.h5
-Projects/ods/**/*.png
-Projects/ods/**/*.gif
-Projects/ods/*.csv
-Projects/ods/*.xlsx
-Projects/solar-power-generation-data-anikannal/*
+Projects/solar-pv-time-series-forecasting/**/*.png
+Projects/solar-pv-time-series-forecasting/**/*.gif
+Projects/solar-pv-time-series-forecasting/*.csv
+Projects/solar-pv-time-series-forecasting/*.xlsx
 Courses/365 Data Science/*
 Courses/Certificates/*
 Datasets/*
 Statistics/*
 Jobs
 learntools-master/*
+Projects/customer-analysis/audiobooks
+Projects/customer-analysis/course
+Projects/customer-analysis/info
