@@ -179,3 +179,7 @@ Projects/customer-analysis/info
 Projects/customer-analysis/working
 Projects/nlp-with-disaster-tweets/nlp-getting-started.zip
 Projects/nlp-with-disaster-tweets/sample_submission.csv
+mlruns
+mlartifacts
+Projects/podcast-sentiment-and-topics-analysis/transcripts/*.txt
+!Projects/podcast-sentiment-and-topics-analysis/transcripts/1000.txt
