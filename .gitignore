@@ -183,3 +183,6 @@ mlruns
 mlartifacts
 Projects/podcast-sentiment-and-topics-analysis/transcripts/*.txt
 !Projects/podcast-sentiment-and-topics-analysis/transcripts/1000.txt
+Projects/dvla-vehicle-statistics/*.csv
+Projects/spotify-wrapped-diy/*.json
+Projects/spotify-wrapped-diy/ReadMeFirst_ExtendedStreamingHistory.pdf
