@@ -161,28 +161,29 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-*.pkl
 *.h5
-Projects/solar-pv-time-series-forecasting/**/*.png
-Projects/solar-pv-time-series-forecasting/**/*.gif
-Projects/solar-pv-time-series-forecasting/*.csv
-Projects/solar-pv-time-series-forecasting/*.xlsx
-Courses/365 Data Science/*
-Courses/Certificates/*
+*.pkl
 Datasets/*
-Statistics/*
 Jobs
+Knowledge/365 Data Science/*
+Knowledge/Certificates/*
 learntools-master/*
+mlartifacts
+mlflow-testing
+mlruns
 Projects/customer-analysis/audiobooks
 Projects/customer-analysis/course
 Projects/customer-analysis/info
 Projects/customer-analysis/working
+Projects/dvla-vehicle-statistics/*.csv
 Projects/nlp-with-disaster-tweets/nlp-getting-started.zip
 Projects/nlp-with-disaster-tweets/sample_submission.csv
-mlruns
-mlartifacts
 Projects/podcast-sentiment-and-topics-analysis/transcripts/*.txt
 !Projects/podcast-sentiment-and-topics-analysis/transcripts/1000.txt
-Projects/dvla-vehicle-statistics/*.csv
+Projects/solar-pv-time-series-forecasting/*.csv
+Projects/solar-pv-time-series-forecasting/*.xlsx
+Projects/solar-pv-time-series-forecasting/**/*.gif
+Projects/solar-pv-time-series-forecasting/**/*.png
 Projects/spotify-wrapped-diy/*.json
 Projects/spotify-wrapped-diy/ReadMeFirst_ExtendedStreamingHistory.pdf
+Statistics/*
