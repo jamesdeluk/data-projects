@@ -163,18 +163,22 @@ cython_debug/
 
 *.h5
 *.pkl
-Datasets/*
+*.ppk
+Datasets
 Jobs
-Knowledge/365 Data Science/*
-Knowledge/Certificates/*
-learntools-master/*
-mlartifacts
+Knowledge/365 Data Science
+Knowledge/Certificates
+Knowledge/SQL
+learntools-master
+*mlartifacts
+*mlruns
 mlflow-testing
-mlruns
+Projects/companies-house/data-sourcing
 Projects/customer-analysis/audiobooks
 Projects/customer-analysis/course
 Projects/customer-analysis/info
 Projects/customer-analysis/working
+Projects/Data - Shortcut.lnk
 Projects/dvla-vehicle-statistics/*.csv
 Projects/nlp-with-disaster-tweets/nlp-getting-started.zip
 Projects/nlp-with-disaster-tweets/sample_submission.csv
@@ -186,4 +190,6 @@ Projects/solar-pv-time-series-forecasting/**/*.gif
 Projects/solar-pv-time-series-forecasting/**/*.png
 Projects/spotify-wrapped-diy/*.json
 Projects/spotify-wrapped-diy/ReadMeFirst_ExtendedStreamingHistory.pdf
-Statistics/*
+Projects/sst
+Projects/vehicle-smart-dvsa
+Statistics
