@@ -161,24 +161,25 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-*.h5
-*.pkl
-*.ppk
+# Irrelevant
 Datasets
 Jobs
 Knowledge/365 Data Science
 Knowledge/Certificates
+Knowledge/Statistics
 Knowledge/SQL
+
+# Libraries and logs
 learntools-master
 *mlartifacts
 *mlruns
-mlflow-testing
-Projects/companies-house/data-sourcing
-Projects/customer-analysis/audiobooks
-Projects/customer-analysis/course
-Projects/customer-analysis/info
-Projects/customer-analysis/working
+
+# Project files, mostly data due to large filesizes
+*.h5
+*.pkl
+*.ppk
 Projects/Data - Shortcut.lnk
+Projects/companies-house/data-sourcing
 Projects/dvla-vehicle-statistics/*.csv
 Projects/nlp-with-disaster-tweets/nlp-getting-started.zip
 Projects/nlp-with-disaster-tweets/sample_submission.csv
@@ -186,10 +187,16 @@ Projects/podcast-sentiment-and-topics-analysis/transcripts/*.txt
 !Projects/podcast-sentiment-and-topics-analysis/transcripts/1000.txt
 Projects/solar-pv-time-series-forecasting/*.csv
 Projects/solar-pv-time-series-forecasting/*.xlsx
-Projects/solar-pv-time-series-forecasting/**/*.gif
-Projects/solar-pv-time-series-forecasting/**/*.png
 Projects/spotify-wrapped-diy/*.json
 Projects/spotify-wrapped-diy/ReadMeFirst_ExtendedStreamingHistory.pdf
-Projects/sst
-Projects/vehicle-smart-dvsa
-Statistics
+
+# Private projects
+Projects/mlflow-testing
+Projects/supersense-technologies
+Projects/vehicle-smart
+
+# Temp
+Projects/request.ipynb
+Projects/aws-lambda-function
+Projects/hosted-language-detection-app
+Projects/dvla-vehicle-statistics
