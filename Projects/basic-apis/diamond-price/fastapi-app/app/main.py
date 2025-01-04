@@ -30,4 +30,4 @@ def predict_price(payload: PredictPayload):
         payload.z,
     ]]
     price = predict(criteria)
-    return {"price": price}
+    return {"input": payload, "price": price}
