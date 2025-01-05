@@ -176,6 +176,7 @@ learntools-master
 
 # Project files, mostly data due to large filesizes
 *.h5
+*.parquet
 *.pkl
 *.ppk
 Projects/Data - Shortcut.lnk
