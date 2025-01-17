@@ -166,8 +166,10 @@ Datasets
 Jobs
 Knowledge/365 Data Science
 Knowledge/Certificates
+Knowledge/Multivariate Data Analysis
 Knowledge/Statistics
 Knowledge/SQL
+uv Projects/sync.ffs_db
 
 # Libraries and logs
 learntools-master
@@ -200,4 +202,3 @@ Projects/vehicle-smart
 Projects/request.ipynb
 Projects/aws-lambda-function
 Projects/hosted-language-detection-app
-Projects/dvla-vehicle-statistics
