@@ -173,6 +173,7 @@ sync.ffs_db
 *.parquet
 *.pkl
 *.ppk
+!basic_apis/diamond-price/fastapi-app/app/model/diamonds_rf_model.pkl
 companies_house/data-sourcing
 companies_house/unique_company_ids.csv
 dvla_vehicle_statistics/*.csv
