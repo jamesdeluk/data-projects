@@ -1,5 +1,0 @@
-uvicorn
-gunicorn
-fastapi
-pydantic
-scikit-learn

@@ -1,3 +1,6 @@
+# OS
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -162,43 +165,37 @@ cython_debug/
 #.idea/
 
 # Irrelevant
-Datasets
-Jobs
-Knowledge/365 Data Science
-Knowledge/Certificates
-Knowledge/Multivariate Data Analysis
-Knowledge/Statistics
-Knowledge/SQL
-uv Projects/sync.ffs_db
-
-# Libraries and logs
-learntools-master
-*mlartifacts
-*mlruns
+sync.ffs_db
+.sync.ffs_db
 
 # Project files, mostly data due to large filesizes
 *.h5
 *.parquet
 *.pkl
 *.ppk
-Projects/Data - Shortcut.lnk
-Projects/companies-house/data-sourcing
-Projects/dvla-vehicle-statistics/*.csv
-Projects/nlp-with-disaster-tweets/nlp-getting-started.zip
-Projects/nlp-with-disaster-tweets/sample_submission.csv
-Projects/podcast-sentiment-and-topics-analysis/transcripts/*.txt
-!Projects/podcast-sentiment-and-topics-analysis/transcripts/1000.txt
-Projects/solar-pv-time-series-forecasting/*.csv
-Projects/solar-pv-time-series-forecasting/*.xlsx
-Projects/spotify-wrapped-diy/*.json
-Projects/spotify-wrapped-diy/ReadMeFirst_ExtendedStreamingHistory.pdf
+companies_house/data-sourcing
+dvla_vehicle_statistics/*.csv
+dvla_vehicle_statistics/dashboard.pbix
+nlp_with_disaster_tweets/nlp_getting_started.zip
+nlp_with_disaster_tweets/sample_submission.csv
+podcast_sentiment_and_topics_analysis/transcripts/*.txt
+!podcast_sentiment_and_topics_analysis/transcripts/1000.txt
+solar_pv_time_series_forecasting/*.csv
+solar_pv_time_series_forecasting/*.xlsx
+spotify_wrapped_diy/*.json
+spotify_wrapped_diy/ReadMeFirst_ExtendedStreamingHistory.pdf
 
-# Private projects
-Projects/playground
-Projects/supersense-technologies
-Projects/vehicle-smart
-
-# Temp
-Projects/request.ipynb
-Projects/aws-lambda-function
-Projects/hosted-language-detection-app
+# Other
+_playground
+aws_lambda_function
+azure_speech
+chatify-transcript-analyzer
+hosted_language_detection_app
+nlp
+langchain_uv
+linkedin_scraper
+pinecone_uv
+podcast_crewai
+pycaret_uv
+streamlit_uv
+tf
