@@ -32,17 +32,17 @@ jobs:
           platforms: linux/amd64,linux/arm64
           tags: jamesdeluk/diamond-price-fastapi:latest
 
-    # deploy:
-    #   needs: build-and-push  # Deploy only after the build succeeds
-    #   runs-on: ubuntu-latest
-    #   steps:
-    #     - name: Log in to Azure
-    #       uses: azure/login@v1
-    #       with:
-    #         creds: ${{ secrets.AZURE_CREDENTIALS }}
+    deploy:
+      needs: build-and-push
+      runs-on: ubuntu-latest
+      steps:
+        - name: Log in to Azure
+          uses: azure/login@v1
+          with:
+            creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    #     - name: Deploy to Azure Web App
-    #       uses: azure/webapps-deploy@v2
-    #       with:
-    #         app-name: "diamond-price-api"
-    #         images: "jamesdeluk/diamond-price-fastapi:latest"
+        - name: Deploy to Azure Web App
+          uses: azure/webapps-deploy@v2
+          with:
+            app-name: "diamond-price-api"
+            images: "jamesdeluk/diamond-price-fastapi:latest"
