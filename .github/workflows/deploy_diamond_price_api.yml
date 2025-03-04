@@ -15,11 +15,6 @@ jobs:
         with:
           lfs: true
 
-      - name: Verify Git LFS Files
-        run: |
-          git lfs pull
-          ls -lh ./basic_apis/diamond-price/fastapi-app/app/model/
-
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
 
