@@ -174,6 +174,7 @@ sync.ffs_db
 *.pkl
 *.ppk
 companies_house/data-sourcing
+companies_house/unique_company_ids.csv
 dvla_vehicle_statistics/*.csv
 dvla_vehicle_statistics/dashboard.pbix
 nlp_with_disaster_tweets/nlp_getting_started.zip
