@@ -16,7 +16,7 @@ class PredictPayload(BaseModel):
 
 @app.get("/")
 def home():
-    return {"health_check": "OK"}
+    return {"welcome_message": "hi!"}
 
 @app.post("/predict")
 def predict_price(payload: PredictPayload):
