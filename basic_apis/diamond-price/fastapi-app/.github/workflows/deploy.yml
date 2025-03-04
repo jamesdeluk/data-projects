@@ -29,15 +29,15 @@ jobs:
           push: true
           tags: jamesdeluk/diamond-price-fastapi:latest
 
-      - name: Deploy to server
-        env:
-          SSH_HOST: ${{ secrets.SSH_HOST }}
-          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
-          SSH_KEY: ${{ secrets.SSH_KEY }}
-        run: |
-          ssh -i $SSH_KEY $SSH_USERNAME@$SSH_HOST << 'EOF'
-            docker pull username/repository:latest
-            docker stop api_container || true
-            docker rm api_container || true
-            docker run -d --name api_container -p 8000:8000 username/repository:latest
-          EOF
+      # - name: Deploy to server
+      #   env:
+      #     SSH_HOST: ${{ secrets.SSH_HOST }}
+      #     SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+      #     SSH_KEY: ${{ secrets.SSH_KEY }}
+      #   run: |
+      #     ssh -i $SSH_KEY $SSH_USERNAME@$SSH_HOST << 'EOF'
+      #       docker pull username/repository:latest
+      #       docker stop api_container || true
+      #       docker rm api_container || true
+      #       docker run -d --name api_container -p 8000:8000 username/repository:latest
+      #     EOF
