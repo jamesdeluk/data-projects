@@ -186,6 +186,8 @@ solar_pv_time_series_forecasting/*.csv
 solar_pv_time_series_forecasting/*.xlsx
 spotify_wrapped_diy/*.json
 spotify_wrapped_diy/ReadMeFirst_ExtendedStreamingHistory.pdf
+mindhacks/2024_flattened.csv
+mindhacks/2024.json
 
 # Other
 _playground
@@ -201,3 +203,4 @@ podcast_crewai
 pycaret_uv
 streamlit_uv
 tf
+podcast_subtitles/get_subtitles.sh
