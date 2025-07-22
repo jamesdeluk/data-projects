@@ -7,6 +7,7 @@ load_dotenv()
 API_KEY = os.environ.get('API_KEY')
 
 max_results = 50
+count_of_new = 0
 
 def load_channels(filename="channels.csv"):
     channels = []
@@ -107,9 +108,12 @@ def monitor_channels():
             if not is_video_downloaded(video_id):
                 print(f"Fetching subtitles for video: {video_title} ({video_id})")
                 download_subtitles(video_id, username, video_title, date, category)
+                global count_of_new
+                count_of_new += 1
             else:
                 print(f"Subtitles for video {video_id} already downloaded.")
 
+    print(f"{count_of_new} new transcripts downloaded")
     print("End")
 
 if __name__ == "__main__":
