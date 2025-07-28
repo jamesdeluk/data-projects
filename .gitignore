@@ -172,8 +172,8 @@ sync.ffs_db
 *.h5
 *.parquet
 *.ppk
+*.pkl
 
-!basic-apis/diamond-price/fastapi-app/app/model/diamonds_rf_model.pkl
 companies-house/data-sourcing
 companies-house/unique_company_ids.csv
 dvla-vehicle-statistics/*.csv
@@ -182,6 +182,7 @@ nlp-with-disaster-tweets/nlp_getting_started.zip
 nlp_with-disaster-tweets/sample-submission.csv
 podcast-sentiment-and-topics-analysis/transcripts/*.txt
 !podcast-sentiment-and-topics-analysis/transcripts/1000.txt
+podcast-subtitles/get_subtitles.sh
 solar-pv-time-series-forecasting/*.csv
 solar-pv-time-series-forecasting/*.xlsx
 spotify-wrapped-diy/*.json
@@ -192,18 +193,17 @@ mindhacks/2024.json
 # Other
 .git
 _playground
-aws-lambda-function
-azure-speech
-chatify-transcript-analyzer
-hosted-language-detection-app
-nlp
-langchain-uv
-linkedin-scraper
-pinecone-uv
-podcast-crewai
-pycaret-uv
-streamlit-uv
-tf
-podcast-subtitles/get_subtitles.sh
-
-*.pkl
+/aws-lambda-function
+/azure-speech
+/butterfly-recognition
+/chatify-transcript-analyzer
+/cnnwtf
+/hosted-language-detection-app
+/nlp
+/langchain-uv
+/linkedin-scraper
+/pinecone-uv
+/podcast-crewai
+/pycaret-uv
+/streamlit-uv
+/tf
