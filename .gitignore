@@ -192,6 +192,8 @@ mindhacks/2024.json
 
 # Other
 .git
+__marimo__
+
 _playground
 /aws-lambda-function
 /azure-speech
