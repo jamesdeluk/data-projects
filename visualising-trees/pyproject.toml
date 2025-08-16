@@ -1,0 +1,19 @@
+[project]
+name = "visualising-trees-project"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "graphviz>=0.21",
+    "kaleido>=1.0.0",
+    "marimo>=0.14.16",
+    "matplotlib>=3.10.5",
+    "networkx>=3.5",
+    "numpy>=2.3.2",
+    "openai>=1.99.8",
+    "pandas>=2.3.1",
+    "plotly>=6.2.0",
+    "pydot>=4.0.1",
+    "scikit-learn>=1.7.1",
+    "scikit-optimize>=0.10.2",
+    "xgboost>=3.0.3",
+]
