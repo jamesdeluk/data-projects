@@ -9,13 +9,11 @@ with app.setup:
     import timeit
     import pandas as pd
     import numpy as np
-    from sklearn.datasets import make_regression, fetch_california_housing, load_iris
+    from sklearn.datasets import fetch_california_housing
     from sklearn.model_selection import train_test_split, ShuffleSplit, RepeatedKFold, cross_validate
-    from sklearn.tree import DecisionTreeRegressor, DecisionTreeClassifier, plot_tree
-    from sklearn import tree as sktree
+    from sklearn.tree import DecisionTreeRegressor, plot_tree
     from sklearn.metrics import mean_absolute_error, mean_absolute_percentage_error, mean_squared_error, root_mean_squared_error, r2_score
     from skopt import BayesSearchCV
-    import plotly.express as px
     import plotly.graph_objs as go
     import matplotlib.pyplot as plt
     import networkx as nx
