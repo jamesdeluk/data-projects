@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.14.16"
+__generated_with = "0.15.0"
 app = marimo.App(width="full")
 
 with app.setup:
@@ -118,6 +118,16 @@ def _(dt_deep, fitpred_single):
 @app.cell
 def _(X, dt_deep):
     plot_branch_vertical(dt_deep, X.iloc[0].values, feature_names=X.columns)
+    return
+
+
+@app.cell
+def _(dt_deep):
+    _leaf_indices = np.where((dt_deep.tree_.children_left == -1) & (dt_deep.tree_.children_right == -1))[0]
+    _unique_values = set()
+    for _leaf in _leaf_indices:
+        _unique_values.add(dt_deep.tree_.value[_leaf][0, 0])
+    len(_unique_values)
     return
 
 
