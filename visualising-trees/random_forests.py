@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.15.0"
+__generated_with = "0.15.2"
 app = marimo.App(width="full")
 
 with app.setup:
@@ -421,6 +421,7 @@ def _(X_train, y_train):
         'max_depth': (1, 100),
         'min_samples_split': (2, 100),
         'min_samples_leaf': (1, 100),
+        'max_leaf_nodes': (2, 20000),
         'max_features': (0.1, 1.0, 'uniform'),
         'criterion': ['squared_error'],
         'bootstrap': [True, False],
@@ -443,6 +444,15 @@ def _(X_train, y_train):
     print("Best Parameters:", opt.best_params_)
     print("Best MAE:", -opt.best_score_)
     return (opt,)
+
+
+@app.cell
+def _(opt):
+    n_l = []
+    for i in opt.best_estimator_.estimators_:
+        n_l.append(i.get_n_leaves())
+    np.mean(n_l)
+    return
 
 
 @app.cell
