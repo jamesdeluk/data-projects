@@ -209,3 +209,8 @@ _playground
 /pycaret-uv
 /streamlit-uv
 /tf
+*.csv
+*.bak
+*.tmp
+node_modules/
+.vscode/
