@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import time
 
-st.set_page_config(page_title="Word By Word Translator", page_icon="🗺️", layout="wide")
+st.set_page_config(page_title="Word-For-Word Translator", page_icon="🗺️", layout="wide")
 
 # Configuration constants
 WORDS_PER_ROW = 10
@@ -252,8 +252,8 @@ def create_partial_table(words, translations):
     return ''.join(html_parts)
 
 def main():
-    st.title("Word By Word Translator")
-    st.write("Translates text word by word using Google Translate")
+    st.title("Word-For-Word Translator")
+    st.write("Translates text Word-For-Word using Google Translate")
 
     # Language selection
     col1, col2 = st.columns(2)
